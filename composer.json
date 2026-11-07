@@ -1,0 +1,19 @@
+{
+    "name": "databasifylabs/example-server-plugin",
+    "description": "Example Databasify plugin: a fake server provider that orders a server you already own.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Databasify\\ExampleServer\\": "src/"
+        }
+    },
+    "extra": {
+        "databasify": {
+            "plugin": "Databasify\\ExampleServer\\ExampleServerPlugin",
+            "requires": "^0.1",
+            "icon": "icon.svg"
+        }
+    }
+}
