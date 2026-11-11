@@ -4,7 +4,7 @@ A working [Databasify](https://github.com/databasifylabs/databasify) plugin and 
 
 ## Try it
 
-1. In Databasify, open **Plugins**, click **Install plugin** and enter `databasifylabs/example-server-plugin`, or upload a zip of this repository.
+1. In Databasify, open **Plugins**, click **Install plugin** and enter `databasifylabs/plugin-example-server`, or upload a zip of this repository.
 2. Take a server you own that runs a system Databasify supports, such as Ubuntu 24.04 or Debian 13.
 3. Add the Databasify SSH key to root on it. Open **Servers → Add server → Existing server**, choose **SSH key** under First sign-in, copy the command and run it on the server as `root`.
 4. Open **Providers → Add provider**, pick **Example Cloud** and enter the server's public IP.

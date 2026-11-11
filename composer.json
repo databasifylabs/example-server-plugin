@@ -1,5 +1,5 @@
 {
-    "name": "databasifylabs/example-server-plugin",
+    "name": "databasifylabs/plugin-example-server",
     "description": "Example Databasify plugin: a fake server provider that orders a server you already own.",
     "version": "1.0.0",
     "type": "library",
